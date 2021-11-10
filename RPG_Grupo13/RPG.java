@@ -31,7 +31,6 @@ public class RPG {
 			break;
 		case 2:
 			System.out.println("Jogar");
-			//nomePersonagem = nomePersonagem(scr);
 			
 			ArrayList opcoes = new ArrayList<String>();
 			
@@ -41,9 +40,10 @@ public class RPG {
 			opcoes.add("marcação de texto (Estruturação)");
 			opcoes.add("Nenhuma das anteriores");
 			
+			System.out.println("Teste");
 			perguntasAleatorias(opcoes);
 			
-			System.out.println("teste");
+			System.out.println("");
 			break;
 		case 3:
 			System.out.println("« Créditos »");
@@ -64,7 +64,6 @@ public class RPG {
 	public static void nomePersonagem(Scanner scr) {
 		System.out.println("Digite o nome do personagem: ");
 		String nomePersonagem = scr.next();
-		
 		return nomePersonagem;
 	}
 	
@@ -74,7 +73,7 @@ public class RPG {
 		return nomeMago;
 	}
 	
-	public static void perguntasAleatorias(ArrayList opcoes) {
+	public static void perguntasAleatorias(ArrayList<String> opcoes) {
 	    Collections.shuffle(opcoes);
 	    for (int indexOpcoes = 0; indexOpcoes < opcoes.size(); indexOpcoes++) {
             System.out.println((indexOpcoes) + ") - " + opcoes.get(indexOpcoes));
