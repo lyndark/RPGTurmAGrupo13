@@ -9,6 +9,8 @@ import java.util.ArrayList;
 
 public class RPG {
 
+	
+	// DARK LOGICS - THE GREAT CHALLENGE
 	public static int contarPontos = 0;
 	public static String nomePet = "";
 
@@ -70,8 +72,8 @@ public class RPG {
 
 	public static void sinopse() {
 		System.out.println(
-				"\nGordes é um mais bonitos vilarejos do Palácio das almas, fica no alto de uma colina de Luberon na Região de Provence. A área pacata e calma foi tomada pelo Grande Spartakus.\r\n"
-						+ "O maior objetivo de Spartakus é causar o caos e tomar o vilarejo para si e tranformar em reino de terror.\r\n"
+				"\nGordes é um dos mais bonitos vilarejos do Palácio das almas, fica no alto de uma colina de Luberon na Região de Provence. A área pacata e calma foi tomada pelo Grande Spartakus.\r\n"
+						+ "O maior objetivo de Spartakus é causar o caos e tomar o vilarejo para si e transformar em um reino de terror.\r\n"
 						+ "Reza a lenda que existe um grande guerreiro destinado a trazer a paz de volta para Gordes. Será você o grande prometido??\r\n"
 						+ "");
 	}
@@ -80,7 +82,7 @@ public class RPG {
 		System.out.println(
 				"\nÉ um jogo de perguntas e respostas baseado no tema 'Portas Lógicas', o jogador passará por 5 fases nas quais enfrentará os cincos seguidores de Spartakus (Baratheon, Frey, Alliser, Varys e Bolton) até chegar na fase final. As fases consistem em perguntas simples/moderadas.\r\n"
 						+ "O jogador contará com ajuda do Mago Azadium que derá breve instruções de como exercitar a lógica para a resolução do problema. Se o jogador acertar as questões ele ganhará um grande companheiro pet (ele pode ajudar ou atrapalhar, preste banstante atenção nas palavras ditas por ele; por mais que pareçam sem nexo, tem um grande sentido!).\r\n"
-						+ "Ahh, não posso esquecer que cada questão certa o jogador ganhará uma certa quantidade de pontos. AAAAAA e pra que servem esses pontos????? È uma boa pergunta!!!! Os pontos adquiridos em cada etapa lhe trará o direito de adquirir um item na fase final (é uma ajuda e tanto). \r\n"
+						+ "Ahh, não posso esquecer que cada questão certa o jogador ganhará uma certa quantidade de pontos. AAAAAA e pra que servem esses pontos????? É uma boa pergunta!!!! Os pontos adquiridos em cada etapa lhe trarão o direito de adquirir um item na fase final (é uma ajuda e tanto). \r\n"
 						+ "\nEae, bora jogar?????");
 	}
 
@@ -94,7 +96,7 @@ public class RPG {
 		int resposta = scr.nextInt();
 
 		if (resposta == 1) {
-			System.out.print("\n🧙‍♂️ Ótimo!! irei te guiar em nosso reino.\n");
+			System.out.print("\n🧙‍♂️ Ótimo!! Irei te guiar em nosso reino.\n");
 		} else {
 			System.out.print("\n🧙‍♂️ Bom, iremos melhorar essa situação, serei seu guia em nosso reino\n");
 		}
@@ -141,6 +143,7 @@ public class RPG {
 
 		} else {
 			System.out.print("\n🧙‍♂️ Que assim seja\n");
+			
 			Escreva("\n🧙‍♂️ Azadium diz: As portas ou circuitos lógicos são dispositivos "
 					+ "que operam e trabalham com um ou mais sinais \n lógicos de entrada para produzir uma e somente uma saída, dependente da função implementada no circuito.\n São geralmente usadas em circuitoseletrônicos, por causa das situações que os sinais deste tipo de circuito \n podem apresentar: presença de sinal, ou '1', e ausência de sinal, ou '0'. As situações Verdade e Falso \n",
 					TimeUnit.MILLISECONDS, 60);
@@ -217,7 +220,6 @@ public class RPG {
 		}
 	}
 
-	// Desafios
 	public static void primeiroDesafio(Scanner scr, String nomePersonagem, int opcao) throws InterruptedException, IllegalAccessException, IllegalArgumentException, InvocationTargetException {
 
 		Escreva("\n🧙‍♂️ Para ir para o próximo nível, você precisará descobrir como abrir a porta a frente. Você verá \r\n"
@@ -347,7 +349,7 @@ public class RPG {
 			
 		}else {
 			Escreva("\n🧔🏾 Alliser diz: EU SABIA QUE JAMAIS SERIA DERROTADO POR FEDELHO(A) IGUAL A VOCÊ\n"
-					+ "NIGUÉM É PAREÔ PARA UM DEUS COMO EU, NINGUÉEEEEEEM\r"
+					+ "NIGUÉM É PÁREO PARA UM DEUS COMO EU, NINGUÉEEEEEEM\r"
 					+ "\n", TimeUnit.MILLISECONDS, 60);
 			
 			Escreva("\n😻 " + nomePet + " meu mestre(a) é o melhor, ele irá te derrotar da pior forma  ~miaaaaaaau\n", TimeUnit.MILLISECONDS, 60);
@@ -407,7 +409,7 @@ public class RPG {
 				+ "traiçoeiro e descarado, mas na verdade ele é muito, muito mais do que isso. ~miauuuuuuuuuuuu\n", TimeUnit.MILLISECONDS, 60);
 		
 		Escreva("\n🧔🏿 Bolton diz: Como chegaram até aqui? Os outros \n"
-				+ "discípulos são muito incopetentes. Será que eu tenho que fazer tudo por aqui?\n", TimeUnit.MILLISECONDS, 60);
+				+ "discípulos são muito incompetentes. Será que eu tenho que fazer tudo por aqui?\n", TimeUnit.MILLISECONDS, 60);
 		
 		Escreva("\n🧙‍♂️ Quantas combinações de entrada uma tabela de verdade teria com um gate AND de seis entradas? \n", TimeUnit.MILLISECONDS, 60);
 		
@@ -447,7 +449,7 @@ public class RPG {
 
 	public static void sextoDesafio(Scanner scr, String nomePersonagem, int opcao) throws InterruptedException, IllegalAccessException, IllegalArgumentException, InvocationTargetException {
 		
-		Escreva("\n🧔🏿‍ SPARTAKUS diz: COMO USAM ME PERTURBAR??????\n"
+		Escreva("\n🧔🏿‍ SPARTAKUS diz: COMO OUSAM ME PERTURBAR??????\n"
 				+ "AAAAAAAAAAAAAAAA :@ :@ :@ ~furioso\n", TimeUnit.MILLISECONDS, 60);
 		
 		Escreva("\n😻 " + nomePet + " diz: chefin estou com medo ~miauuuuu\n", TimeUnit.MILLISECONDS, 60);
@@ -486,8 +488,8 @@ public class RPG {
 		if(resposta) {
 			
 			Escreva("\n🧙‍♂️ Azadium e 😻" + nomePet + " dizem: \n"
-					+ "Você consegiu, você conseguiu!!!\n"
-					+ "Gorbes finalmente está a salvo.\n"
+					+ "Você conseguiu, você conseguiu!!!\n"
+					+ "Gordes finalmente está a salvo.\n"
 					+ "✴ Podemos retomar as nossas vidas e tudo isso graças a você!!!!!!! ✴\n " + nomePersonagem + ", Parabéns por chegar até aqui!\n", TimeUnit.MILLISECONDS, 60);
 			
 			Escreva("\n🧙‍♂️ Spartakus diz:\n"
